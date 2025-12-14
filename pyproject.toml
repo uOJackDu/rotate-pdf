@@ -1,0 +1,25 @@
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "rotate-pdf"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pypdf>=6.4.2",
+    "ruff>=0.14.9",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
+[project.scripts]
+rotate-pdf = "rotate_pdf.__main__:main"
+
+[tool.ruff]
+line-length = 100
