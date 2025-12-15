@@ -44,8 +44,8 @@ source .venv/bin/activate   # macOS/Linux
 
 Run the tool (works from any directory after activation):
 ```bash
-rotate-pdf input.pdf                     # 90° counterclockwise → input_out.pdf
-rotate-pdf input.pdf --direction 1       # 90° clockwise → input_out.pdf
+rotate-pdf input.pdf                     # 90° counterclockwise -> input_out.pdf
+rotate-pdf input.pdf --direction 1       # 90° clockwise -> input_out.pdf
 rotate-pdf input.pdf output.pdf --degrees 180 --direction 0
 rotate-pdf input.pdf --degrees 270 --direction 1
 ```
