@@ -27,6 +27,7 @@ Requires Python 3.12+ and `uv` (recommended).
    git clone https://github.com/yourusername/rotate-pdf.git
    cd rotate-pdf
    ```
+
 3. Install in editable mode
    ```bash
    uv sync          # Installs dependencies (pypdf and dev deps)
@@ -55,6 +56,7 @@ uv run rotate-pdf input.pdf
 ```
 
 ### Options
+
 ```
 usage: rotate-pdf [-h] [--degrees {90,180,270}] [--direction {0,1}] input_path [output_path]
 
@@ -70,6 +72,7 @@ options:
 ```
 
 ### Running Tests
+
 ```bash
 uv run pytest -v
 ```
